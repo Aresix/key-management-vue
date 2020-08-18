@@ -1,6 +1,7 @@
 <template>
   <div class="note">
-    <h2 style="margin-top: -10px">AES在线加密、解密
+    <img src="../assets/key.png" style="position: fixed; left:5px; top: 5px; height:10%"/>
+    <h2 style="margin-top: -25px; color: #46617a">AES在线加密、解密
       <el-tooltip class="item" effect="dark" placement="bottom">
         <div slot="content" style="font-size: 16px">
           该页面提供两种用法：<br/>
@@ -12,9 +13,9 @@
           &nbsp;&nbsp;&nbsp;&nbsp;方法二：<br/>
           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. 先在左上角的输入框中输入想要加密的文本。<br/>
           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. 点击“加密”，加密后的文本将在右侧对话框中显示。<br/>
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. 复制右上角对话框中显示的加密文本，粘贴至左下角的对话框中。点击解密，可在右侧对话框中得原文。<br/>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. 复制右上角对话框中显示的加密文本，粘贴至左下角的对话框中。点击解密，可在右侧对话框中得原文。<br/><br/><br/>
+          如果显示不全可以调整浏览器页面缩放！
         </div>
-<!--        <el-button type="plain" circle icon="el-icon-info"/>-->
         <i class="el-icon-info"/>
       </el-tooltip>
     </h2>
@@ -154,7 +155,7 @@ export default {
 <style scoped>
   .item {
     margin: 4px;
-    font-size: 20px;
+    font-size: 30px;
   }
   .note{
     padding-left: 20px;
